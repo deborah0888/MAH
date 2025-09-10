@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>in.kmit</groupId>
-  <artifactId>MyJavaProject</artifactId>
+  <artifactId>MyJavaProject</artfactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>MyJavaProject</name>
@@ -17,7 +17,7 @@
   </properties>
 
   <dependencyManagement>
-    <dependencies>
+  
       <dependency>
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
@@ -57,7 +57,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.13.0</version>
+          <version>3.8.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
